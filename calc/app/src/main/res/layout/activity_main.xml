@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calcView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/textview"
+        android:textAlignment="viewEnd"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/calcView"
+        tools:layout_editor_absoluteX="98dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/btnkey7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkey7"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_weight="1" />
+
+            <Button
+                    android:id="@+id/btnkey8"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkey8"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnkey9"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkey9"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnallclear"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnallclear"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnkey4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkey4"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnkey5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkey5"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnkey6"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkey6"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnkeyplus"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkeyplus"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnkey1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkey1"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnkey2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkey2"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnkey3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkey3"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnkeyminus"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnkeyminus"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/btnkey0"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkey0"
+                    style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                    android:id="@+id/btnkey00"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkey00"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnkeydivided"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkeydivided"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnkeymultiplied"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkeymultiplied"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnbracketlog"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnbracketlog"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnbracketln"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnbracketln"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/btnbracketexp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                android:text="@string/btnbracketexp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btndel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btndel"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/btnbracketsin"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbracketsin"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnbracketcos"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbracketcos"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnbrackettan"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbrackettan"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnbracketsqrt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbracketsqrt"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/btnbracketsforward"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbracketsforward"
+                    style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                    android:id="@+id/btnbracketsback"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnbracketsback"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/btnkeyequal"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnkeyequal"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:autoText="false" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
